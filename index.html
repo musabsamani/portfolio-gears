@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="global">
+    <div class="settings-box">
+      <div>
+        <span class="toggle">
+          <i class="fa fa-gear"></i>
+        </span>
+        <div class="settings-container">
+          <div class="option-box color-box">
+            <h4>Colors</h4>
+            <ul>
+              <li class="active" data-color="#ff9800"></li>
+              <li data-color="#ef1e63"></li>
+              <li data-color="#009688"></li>
+              <li data-color="#03a9f4"></li>
+              <li data-color="#4caf50"></li>
+            </ul>
+          </div>
+          <div class="option-box checkbox background-box">
+            <label>
+              <input type="checkbox" name="checkbox" checked>
+              <h4>Random Background 10s</h4>
+            </label>
+          </div>
+          <div class="option-box checkbox bullets-box">
+            <label>
+              <input type="checkbox" name="bullets" checked>
+              <h4>show navigaion bullets</h4>
+            </label>
+          </div>
+          <div class="option-box reset">
+            <button>reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bullets">
+      <span>
+        <p>home</p>
+      </span>
+      <span>
+        <p>about</p>
+      </span>
+      <span>
+        <p>skills</p>
+      </span>
+      <span>
+        <p>gallery</p>
+      </span>
+      <span>
+        <p>features</p>
+      </span>
+      <span>
+        <p>contact</p>
+      </span>
+    </div>
+  </section>
+  <section id="home" class="landing">
+    <header>
+      <div>
+        <div class="logo">
+          <a href="/">My<span>Logo</span></a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#about">about</a></li>
+            <li><a href="#features">service</a></li>
+            <li><a href="#testimonials">testimonials</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+          <button class="toggle-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <div class="intro">
+        <h1>I'm a <span>creative</span> web developer</h1>
+        <p>I provide innovative solutions to your business needs. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam iure aliquam et totam!</p>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about">
+    <div class="container">
+      <div class="info">
+        <h2 class="main-h2">about Me</h2>
+        <p>I'm a passionate individual dedicated to delivering exceptional results for our clients. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem molestiae consequatur tempora, assumenda blanditiis voluptates earum deleniti, quaerat sequi commodi error eveniet inventore corrupti sit pariatur. Temporibus quis laborum officia.</p>
+      </div>
+      <div class="image">
+        <div class="image">
+          <img src="images/0.jpg" alt="about us">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="skills" class="skills dark">
+    <div class="container">
+      <h2 class="main-h2">My skills</h2>
+      <div class="box">
+        <p>HTML</p>
+        <span data-progress="85"></span>
+      </div>
+      <div class="box">
+        <p>CSS</p>
+        <span data-progress="75"></span>
+      </div>
+      <div class="box">
+        <p>JavaScript</p>
+        <span data-progress="80"></span>
+      </div>
+      <div class="box">
+        <p>React</p>
+        <span data-progress="77"></span>
+      </div>
+      <div class="box">
+        <p>Node.js</p>
+        <span data-progress="70"></span>
+      </div>
+      <div class="box">
+        <p>MongoDB</p>
+        <span data-progress="65"></span>
+      </div>
+    </div>
+  </section>
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="img">
+        <img src="images/0.jpg" alt="this is alt text for img1">
+        <img src="images/0.jpg" alt="this is alt text for img2">
+        <img src="images/0.jpg" alt="this is alt text for img3">
+        <img src="images/0.jpg" alt="this is alt text for img4">
+        <img src="images/0.jpg" alt="this is alt text for img5">
+        <img src="images/0.jpg" alt="this is alt text for img6">
+        <img src="images/0.jpg" alt="this is alt text for img7">
+        <img src="images/0.jpg" alt="this is alt text for img8">
+        <img src="images/0.jpg" alt="this is alt text for img9">
+      </div>
+    </div>
+  </section>
+  <section id="timeline" class="timeline dark">
+    <div class="container">
+      <h2>timeline</h2>
+      <div class="content">
+        <h3>2020</h3>
+        <div class="flex-container">
+          <div class="box">
+            <h4>Project Initiation</h4>
+            <p>Started the project with initial planning and brainstorming sessions.</p>
+          </div>
+          <div class="box">
+            <h4>Design Phase</h4>
+            <p>Worked on creating wireframes and design mockups for the project.</p>
+          </div>
+          <div class="box">
+            <h4>Development Begins</h4>
+            <p>Started the actual development of the project, coding the frontend and backend functionalities.</p>
+          </div>
+          <div class="box">
+            <h4>Testing and Debugging</h4>
+            <p>Performed rigorous testing and debugging to ensure the project's quality and stability.</p>
+          </div>
+          <div class="box">
+            <h4>Client Feedback</h4>
+            <p>Received feedback from the client and made necessary revisions to meet their requirements.</p>
+          </div>
+          <div class="box">
+            <h4>Project Delivery</h4>
+            <p>Delivered the final product to the client and provided support for any post-launch issues.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="features" class="features">
+    <div class="container">
+      <h2>Exciting Features</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="images/0.jpg" alt="feature1">
+          <h4>User-Friendly Interface</h4>
+          <p>Our platform provides an intuitive and user-friendly interface, ensuring a seamless experience for all users.</p>
+        </div>
+        <div class="card">
+          <img src="images/0.jpg" alt="feature2">
+          <h4>Advanced Security</h4>
+          <p>We prioritize the security of your data by implementing state-of-the-art security measures, giving you peace of mind.</p>
+        </div>
+        <div class="card">
+          <img src="images/0.jpg" alt="feature3">
+          <h4>24/7 Support</h4>
+          <p>Our dedicated support team is available round-the-clock to assist you with any queries or issues you may encounter.</p>
+        </div>
+        <div class="card">
+          <img src="images/0.jpg" alt="feature4">
+          <h4>Customization Options</h4>
+          <p>With our platform, you have the flexibility to customize your experience according to your preferences and needs.</p>
+        </div>
+        <div class="card">
+          <img src="images/0.jpg" alt="feature5">
+          <h4>Seamless Integration</h4>
+          <p>Integrate our solution seamlessly with your existing systems and workflows, enhancing efficiency and productivity.</p>
+        </div>
+        <div class="card">
+          <img src="images/0.jpg" alt="feature6">
+          <h4>Scalability</h4>
+          <p>Our platform is designed to scale effortlessly, ensuring it grows with your business and adapts to your changing needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2>Client Testimonials</h2>
+      <div class="content">
+        <div class="box">
+          <q>Working with this team has been an incredible experience. Their dedication and expertise have truly made a difference in our project.</q>
+          <div class="person">
+            <div class="img">
+              <img src="images/0.jpg" alt="">
+            </div>
+            <div>
+              <h4>Emily Johnson</h4>
+              <span>Founder, XYZ Company</span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <q>I am thoroughly impressed with the level of professionalism and commitment shown by this team. They exceeded all our expectations.</q>
+          <div class="person">
+            <div class="img">
+              <img src="images/0.jpg" alt="">
+            </div>
+            <div>
+              <h4>Michael Smith</h4>
+              <span>Director of Operations, ABC Corporation</span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <q>Choosing this company was one of the best decisions we made for our business. Their innovative solutions have significantly boosted our productivity.</q>
+          <div class="person">
+            <div class="img">
+              <img src="images/0.jpg" alt="">
+            </div>
+            <div>
+              <h4>Sarah Williams</h4>
+              <span>CEO, XYZ Enterprises</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>contact me</h2>
+      <form onsubmit="return event.preventDefault()">
+        <div>
+          <input type="text" name="name" placeholder="Name">
+          <input type="text" name="phone" placeholder="Phone">
+          <input type="email" name="email" placeholder="Email">
+          <input type="text" name="subject" placeholder="Subject">
+        </div>
+        <div>
+          <textarea name="messag" placeholder="Message"></textarea>
+          <input type="submit" value="send">
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <p>created with <span>&#x2764;</span> by Musab. &copy;copyright 2024</p>
+  </footer>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
